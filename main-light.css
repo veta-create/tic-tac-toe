@@ -1,0 +1,150 @@
+.main-block {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  display: grid;
+  grid-gap: 1px;
+  grid-template-columns: 140px 140px 140px;
+  grid-template-rows: 140px 140px 140px;
+  left: 37%;
+  top: 15%;
+  background-color:  rgb(237, 242, 244);
+  box-shadow: 0 0 5px rgb(43, 45, 66);
+}
+
+.main-size-600 {
+  width: 600px;
+  height: 600px;
+  grid-template-columns: 200px 200px 200px;
+  grid-template-rows: 170px 170px 170px;
+}
+
+.main-size-700 {
+  left: 33%;
+  width: 700px;
+  height: 700px;
+  grid-template-columns: 225px 225px 225px;
+  grid-template-rows: 210px 210px 210px;
+}
+
+.block {
+  margin-left: 50px;
+  margin-top: 50px;
+  width: 130px;
+  height: 130px;
+  background-color: rgb(237, 242, 244);
+}
+
+.block-size-600 {
+  margin-left: 20px;
+  margin-top: 30px;
+  width: 170px;
+  height: 170px;
+}
+
+.block-size-700 {
+  margin-left: 0px;
+  margin-top: 10px;
+  width: 220px;
+  height: 220px;
+}
+
+.horizontal-line {  
+  position: absolute;
+  left: 50px;
+  height: 5px;
+  width: 400px;
+  background-color: rgb(217, 4, 41);
+}
+
+.h-line-600 {
+  width: 500px;
+}
+
+.h-line-700 {
+  width: 600px;
+}
+
+.h-line-1 {
+  top: 180px;
+}
+
+.h-line-2 {
+  top: 310px;
+}
+
+.vertical-line {
+  position: absolute;
+  top: 50px;
+  height: 400px;
+  width: 5px;
+  background-color: rgb(43, 45, 66);
+  box-shadow:  0 0 5px rgb(43, 45, 66);
+}
+
+.v-line-600 {
+  height: 500px;
+}
+
+.v-line-700 {
+  height: 600px;
+}
+
+.v-line-1 {
+  left: 180px;
+}
+
+.v-line-2 {
+  right: 180px;
+}
+
+.player-1 {
+  display: none;
+  margin: 0;
+  position: absolute;
+  top: -40px;
+  left: 140px;
+  color: rgb(175, 91, 91);
+  font-size: 40px;
+}
+
+.player-2 {
+  display: none;
+  margin: 0;
+  position: absolute;
+  top: 410px;
+  left: 140px;
+  color: rgb(141, 153, 174);
+  font-size: 40px;
+}
+
+.cross {
+  background-image: url("cross.png");
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center;
+}
+
+.zero {
+  background-image: url("ring.png");
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: center;
+}
+
+.moon {
+  position: absolute;
+  left: -460px;
+  top: -460px;
+  transform: scale(0.08);
+}
+
+.theme {
+  position: absolute;
+  left: 1105px;
+  top: -120px;
+  width: 100px;
+  height: 100px;
+  border: none;
+  background-color: #ffffff;
+}
